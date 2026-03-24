@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mangalam Sports | Elite Performance Gear</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;family=Space+Grotesk:wght@300..700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-secondary-fixed": "#4c2e00",
+              "error-dim": "#d53d18",
+              "on-error-container": "#ffd2c8",
+              "on-secondary-fixed-variant": "#724700",
+              "inverse-surface": "#faf8ff",
+              "secondary-dim": "#e79400",
+              "surface": "#060e20",
+              "surface-tint": "#ff9153",
+              "surface-dim": "#060e20",
+              "secondary-fixed": "#ffc885",
+              "tertiary-fixed": "#37bcf7",
+              "primary": "#ff9153",
+              "inverse-primary": "#9e4400",
+              "on-primary-fixed": "#000000",
+              "on-primary": "#511f00",
+              "secondary-fixed-dim": "#ffb554",
+              "on-secondary-container": "#fff6f0",
+              "primary-dim": "#fd761a",
+              "on-primary-fixed-variant": "#4e1e00",
+              "outline": "#6d758c",
+              "on-tertiary-fixed-variant": "#003e56",
+              "secondary": "#f8a010",
+              "on-tertiary-fixed": "#001a27",
+              "surface-variant": "#192540",
+              "tertiary": "#47c4ff",
+              "on-background": "#dee5ff",
+              "on-primary-container": "#3f1700",
+              "on-tertiary-container": "#003044",
+              "surface-container-low": "#091328",
+              "outline-variant": "#40485d",
+              "surface-container-highest": "#192540",
+              "error-container": "#b92902",
+              "on-secondary": "#4a2c00",
+              "surface-bright": "#1f2b49",
+              "inverse-on-surface": "#4d556b",
+              "surface-container-high": "#141f38",
+              "tertiary-fixed-dim": "#1bafe9",
+              "primary-fixed-dim": "#f06c0b",
+              "on-surface-variant": "#a3aac4",
+              "on-surface": "#dee5ff",
+              "background": "#060e20",
+              "surface-container-lowest": "#000000",
+              "tertiary-dim": "#05a9e3",
+              "secondary-container": "#855300",
+              "tertiary-container": "#2db7f2",
+              "on-tertiary": "#003b52",
+              "primary-container": "#ff7a23",
+              "on-error": "#450900",
+              "primary-fixed": "#ff7a23",
+              "surface-container": "#0f1930",
+              "error": "#ff7351"
+            },
+            fontFamily: {
+              "headline": ["Space Grotesk"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-card {
+        background: rgba(25, 37, 64, 0.4);
+        backdrop-filter: blur(24px);
+        border: 1px solid rgba(222, 229, 255, 0.1);
+      }
+      .kinetic-gradient {
+        background: linear-gradient(135deg, #ff9153 0%, #f8a010 100%);
+      }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">
+<!-- Top Navigation Shell -->
+<nav class="fixed top-0 w-full z-50 bg-[#060e20]/40 backdrop-blur-3xl shadow-[0_20px_40px_rgba(0,0,0,0.4)]">
+<div class="flex justify-between items-center w-full px-8 py-4 max-w-none">
+<!-- Brand Logo -->
+<div class="text-2xl font-black italic tracking-tighter text-[#ff9153] uppercase font-headline">
+                Anand Mangal Sports
+            </div>
+<!-- Desktop Links -->
+<div class="hidden md:flex items-center gap-10">
+<a class="text-[#ff9153] font-bold border-b-2 border-[#ff9153] pb-1 font-headline uppercase tracking-widest text-sm" href="#">Cricket</a>
+<a class="text-[#dee5ff] hover:text-[#ff9153] transition-colors font-headline uppercase tracking-widest text-sm" href="#">Football</a>
+<a class="text-[#dee5ff] hover:text-[#ff9153] transition-colors font-headline uppercase tracking-widest text-sm" href="#">Fitness</a>
+<a class="text-[#dee5ff] hover:text-[#ff9153] transition-colors font-headline uppercase tracking-widest text-sm" href="#">Badminton</a>
+</div>
+<!-- Trailing Actions -->
+<div class="flex items-center gap-6">
+<div class="hidden sm:flex gap-4">
+<span class="material-symbols-outlined text-[#dee5ff] cursor-pointer hover:text-primary transition-colors">shopping_cart</span>
+<span class="material-symbols-outlined text-[#dee5ff] cursor-pointer hover:text-primary transition-colors">person</span>
+</div>
+<button class="bg-primary text-on-primary font-headline font-bold uppercase tracking-wider px-6 py-2 rounded-xl scale-100 active:scale-90 transition-transform shadow-[0_0_20px_rgba(255,145,83,0.3)]">
+                    Shop Now
+                </button>
+</div>
+</div>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+<!-- Hero Image Background -->
+<div class="absolute inset-0 z-0">
+<img alt="Athletic Training" class="w-full h-full object-cover grayscale opacity-40" data-alt="dynamic close-up of high-performance running shoes on a dark textured track with dramatic cinematic orange lighting and dust particles" src="https://lh3.googleusercontent.com/aida-public/AB6AXuACKWksc9zdKVSU2jHDRjniyPAngUuZygLyatsbY_gQPZS6ikjGou3vsFJK4-fSzJs4GNOFewohzIRhcQXWIg0yCDygA3sxOFBmFY2yrW4YjjzMfstlMglWbVtCOoRdSu0Z7j_vXFVTCL2fPR74aYn81tWhCS3ERik7z_fQlw-FDGmgFoUAlA_SQLhIx45LpRNY4bBSwqT6mZn5tkg2xzJHCMY76xxCFjJIHySEYtmwijsVnPb7UtN6BeVsmg7joUJO3cKJARIHLUo"/>
+<div class="absolute inset-0 bg-gradient-to-r from-surface via-surface/80 to-transparent"></div>
+</div>
+<div class="container mx-auto px-8 relative z-10 grid md:grid-cols-2 gap-12 items-center">
+<div class="max-w-2xl">
+<div class="inline-flex items-center gap-2 bg-secondary-container/30 text-secondary px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-6">
+<span class="material-symbols-outlined text-sm" data-weight="fill">bolt</span>
+                        New Season Drop
+                    </div>
+<h1 class="font-headline text-6xl md:text-8xl font-extrabold uppercase leading-[0.9] tracking-tighter mb-8">
+                        Elevate <br/>Your <span class="text-primary italic">Game.</span>
+</h1>
+<p class="text-on-surface-variant text-lg md:text-xl max-w-lg mb-10 font-body leading-relaxed">
+                        Engineered for elite performance. Discover a curated collection of premium gear for champions who never settle for second best.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="kinetic-gradient text-on-primary-fixed font-headline font-bold uppercase tracking-widest px-10 py-5 rounded-xl flex items-center gap-3 hover:shadow-[0_0_40px_rgba(255,145,83,0.5)] transition-all">
+                            Explore Collection
+                            <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+<button class="glass-card px-10 py-5 rounded-xl font-headline font-bold uppercase tracking-widest hover:bg-white/10 transition-colors">
+                            View Catalog
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Category Bento Grid -->
+<section class="py-24 bg-surface-container-low">
+<div class="container mx-auto px-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div>
+<h2 class="font-headline text-4xl md:text-5xl font-black uppercase tracking-tighter mb-4">Elite Categories</h2>
+<p class="text-on-surface-variant font-body">Specialized gear for your specific discipline.</p>
+</div>
+<div class="h-1 w-24 bg-primary hidden md:block"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+<!-- Cricket Card -->
+<div class="glass-card rounded-lg p-8 group cursor-pointer transition-all duration-500 hover:-translate-y-2 hover:bg-surface-container-highest">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-8 group-hover:bg-primary transition-colors duration-500">
+<span class="material-symbols-outlined text-primary text-3xl group-hover:text-on-primary" data-weight="fill">sports_cricket</span>
+</div>
+<h3 class="font-headline text-2xl font-bold uppercase mb-2">Cricket</h3>
+<p class="text-on-surface-variant text-sm font-body mb-6">Pro-grade bats and protection gear.</p>
+<span class="text-primary text-xs font-bold uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all">
+                            Browse <span class="material-symbols-outlined text-sm">chevron_right</span>
+</span>
+</div>
+<!-- Football Card -->
+<div class="glass-card rounded-lg p-8 group cursor-pointer transition-all duration-500 hover:-translate-y-2 hover:bg-surface-container-highest">
+<div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mb-8 group-hover:bg-secondary transition-colors duration-500">
+<span class="material-symbols-outlined text-secondary text-3xl group-hover:text-on-secondary" data-weight="fill">sports_soccer</span>
+</div>
+<h3 class="font-headline text-2xl font-bold uppercase mb-2">Football</h3>
+<p class="text-on-surface-variant text-sm font-body mb-6">Elite boots for precision and speed.</p>
+<span class="text-secondary text-xs font-bold uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all">
+                            Browse <span class="material-symbols-outlined text-sm">chevron_right</span>
+</span>
+</div>
+<!-- Fitness Card -->
+<div class="glass-card rounded-lg p-8 group cursor-pointer transition-all duration-500 hover:-translate-y-2 hover:bg-surface-container-highest">
+<div class="w-16 h-16 bg-tertiary/10 rounded-full flex items-center justify-center mb-8 group-hover:bg-tertiary transition-colors duration-500">
+<span class="material-symbols-outlined text-tertiary text-3xl group-hover:text-on-tertiary" data-weight="fill">fitness_center</span>
+</div>
+<h3 class="font-headline text-2xl font-bold uppercase mb-2">Fitness</h3>
+<p class="text-on-surface-variant text-sm font-body mb-6">Technical apparel and gym essentials.</p>
+<span class="text-tertiary text-xs font-bold uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all">
+                            Browse <span class="material-symbols-outlined text-sm">chevron_right</span>
+</span>
+</div>
+<!-- Badminton Card -->
+<div class="glass-card rounded-lg p-8 group cursor-pointer transition-all duration-500 hover:-translate-y-2 hover:bg-surface-container-highest">
+<div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-8 group-hover:bg-white/20 transition-colors duration-500">
+<span class="material-symbols-outlined text-white text-3xl" data-weight="fill">sports_tennis</span>
+</div>
+<h3 class="font-headline text-2xl font-bold uppercase mb-2">Badminton</h3>
+<p class="text-on-surface-variant text-sm font-body mb-6">Lightweight racquets for rapid response.</p>
+<span class="text-white text-xs font-bold uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all">
+                            Browse <span class="material-symbols-outlined text-sm">chevron_right</span>
+</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Products -->
+<section class="py-24">
+<div class="container mx-auto px-8">
+<div class="text-center mb-20">
+<h2 class="font-headline text-5xl font-black uppercase tracking-tighter mb-4">Precision Selection</h2>
+<p class="text-on-surface-variant font-body">Featured equipment used by the pros.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+<!-- Product 1 -->
+<div class="flex flex-col group">
+<div class="relative aspect-[4/5] rounded-lg overflow-hidden mb-6 bg-surface-container-high">
+<img alt="Cricket Bat" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="close-up studio shot of a high-end willow cricket bat with carbon fiber detailing against a dark moody background with orange accent light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOTm4m_eUZUNlZHWygF5xiIu_W-IxBr8c6BOyJBDBWZSCEo85zH6T4qViuCprcOCdttpvVbZiLg1wV2KJJsc99bbCVAK_yaPZizZya7JqjAZRTvaE8KeHACNFbxcBEdVPlv4-VNm3KhRP489mySoBBEMPk2baLi42iUtwB8or1oTgExL8Oq7Xnuz3-_BjJm91haEjLvOG-yCaVC70STI81jNomEyBQw6ZsKECDanozix0klT1-loG_L0tPnPC2Hpaufrt9bkoUG7Y"/>
+<div class="absolute top-4 left-4">
+<span class="bg-primary text-on-primary-fixed text-[10px] font-black uppercase px-3 py-1 rounded-full">New Arrival</span>
+</div>
+</div>
+<div class="flex justify-between items-start mb-4">
+<div>
+<h4 class="font-headline text-xl font-bold uppercase">Apex Willow Series VII</h4>
+<p class="text-on-surface-variant text-sm font-label">Professional Grade • Grade 1 Willow</p>
+</div>
+<span class="text-secondary font-headline font-bold text-xl">$849.00</span>
+</div>
+<button class="w-full py-4 glass-card rounded-lg font-headline font-bold uppercase tracking-widest text-sm hover:bg-primary hover:text-on-primary transition-all duration-300 flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-lg">shopping_bag</span>
+                            Add to Cart
+                        </button>
+</div>
+<!-- Product 2 -->
+<div class="flex flex-col group">
+<div class="relative aspect-[4/5] rounded-lg overflow-hidden mb-6 bg-surface-container-high">
+<img alt="Football Cleats" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="ultra-modern red and black football cleats on a dark reflective surface with glowing atmospheric orange rim lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBuGZkOVGZvArSxFMziK6kzamwH_Tn7b5YWMeQ30EoRc_-VGDxzbk0EqurDvaKGzhVHIGS0FtG6vOumMUsD4RR6Id_cLokQXRaF38qb3WGwU6Jpj8o1S5ag4h12oNsrDhcIT3HrMPPUz8TGgTBxPWEAlT35IpOCKnrAFpYvWApHraIspmnzAwIi4z6XA44lMHDpIhwB1x4RpXx2Je-GXnAFe5r-DdGv0zNS0ZAhtRSIhN6EbWPgDiD4rdQUq80r8qrvhqa2XcCJu8"/>
+<div class="absolute top-4 left-4">
+<span class="bg-tertiary text-on-tertiary-fixed text-[10px] font-black uppercase px-3 py-1 rounded-full">Pro Choice</span>
+</div>
+</div>
+<div class="flex justify-between items-start mb-4">
+<div>
+<h4 class="font-headline text-xl font-bold uppercase">Ignite Carbon Cleats</h4>
+<p class="text-on-surface-variant text-sm font-label">Elite Speed • Lightweight Composite</p>
+</div>
+<span class="text-secondary font-headline font-bold text-xl">$210.00</span>
+</div>
+<button class="w-full py-4 glass-card rounded-lg font-headline font-bold uppercase tracking-widest text-sm hover:bg-primary hover:text-on-primary transition-all duration-300 flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-lg">shopping_bag</span>
+                            Add to Cart
+                        </button>
+</div>
+<!-- Product 3 -->
+<div class="flex flex-col group">
+<div class="relative aspect-[4/5] rounded-lg overflow-hidden mb-6 bg-surface-container-high">
+<img alt="Gym Weights" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="premium textured dumbbells on a dark gym floor with dramatic orange sidelight emphasizing metal texture and grip details" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSl6n1vWs2YXTPzJ4lAI0LeXGXWEjRXSAuj5bSsq5OfmsT4J3tSe18WQUDLZt6o5HeJw2g4LuVUy469jpBoaU_igNEGyY9q87GBwOb76sqdMyFy14WuLYJpSA7amvA6BFRUpGUp8aV7yAMVMICwFoxTThhggwkoF2OsnD7Y719qvjL96fNIXn4AxgKyzzUz8T4M53Zhr_B2e0p9ekCHo_7mrprpXGGb0OdPlbvlCCHgtmS_BRl8ndMxDde2GXY7VR4dMkI_moYVl8"/>
+<div class="absolute top-4 left-4">
+<span class="bg-secondary text-on-secondary-fixed text-[10px] font-black uppercase px-3 py-1 rounded-full">Restocked</span>
+</div>
+</div>
+<div class="flex justify-between items-start mb-4">
+<div>
+<h4 class="font-headline text-xl font-bold uppercase">Vanguard Hex-Steel Set</h4>
+<p class="text-on-surface-variant text-sm font-label">Precision Weight • Anti-Roll Design</p>
+</div>
+<span class="text-secondary font-headline font-bold text-xl">$145.00</span>
+</div>
+<button class="w-full py-4 glass-card rounded-lg font-headline font-bold uppercase tracking-widest text-sm hover:bg-primary hover:text-on-primary transition-all duration-300 flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-lg">shopping_bag</span>
+                            Add to Cart
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Newsletter CTA -->
+<section class="py-24 container mx-auto px-8">
+<div class="glass-card rounded-xl p-12 md:p-20 relative overflow-hidden flex flex-col items-center text-center">
+<div class="absolute top-0 right-0 w-96 h-96 bg-primary/20 blur-[120px] rounded-full -mr-48 -mt-48"></div>
+<div class="absolute bottom-0 left-0 w-64 h-64 bg-secondary/10 blur-[100px] rounded-full -ml-32 -mb-32"></div>
+<h2 class="font-headline text-4xl md:text-6xl font-black uppercase tracking-tighter mb-6 relative z-10">Join the Elite</h2>
+<p class="text-on-surface-variant max-w-xl mb-12 relative z-10 font-body">Get early access to drops, professional training tips, and member-only performance insights.</p>
+<div class="flex flex-col md:flex-row w-full max-w-lg gap-4 relative z-10">
+<input class="flex-1 bg-surface-container-high border-none rounded-lg px-6 py-4 text-on-surface focus:ring-2 focus:ring-primary font-headline tracking-widest uppercase" placeholder="ENTER YOUR EMAIL" type="email"/>
+<button class="kinetic-gradient text-on-primary-fixed font-headline font-bold uppercase tracking-widest px-8 py-4 rounded-lg hover:shadow-lg transition-all">Subscribe</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#060e20] w-full border-t border-[#192540]">
+<div class="flex flex-col md:flex-row justify-between items-start px-8 py-12 gap-12 container mx-auto">
+<!-- Brand Section -->
+<div class="max-w-xs">
+<div class="text-xl font-black text-[#dee5ff] uppercase font-headline mb-6 tracking-tighter">
+                    Anand Mangal Sports
+                </div>
+<p class="text-[#dee5ff]/60 text-sm font-body leading-relaxed mb-8">
+                    Beside Hariom Kirana Store, Nehru Market, Arvi
+                </p>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-[#dee5ff]/60 hover:text-[#ff9153] cursor-pointer transition-colors">public</span>
+<span class="material-symbols-outlined text-[#dee5ff]/60 hover:text-[#ff9153] cursor-pointer transition-colors">mail</span>
+<span class="material-symbols-outlined text-[#dee5ff]/60 hover:text-[#ff9153] cursor-pointer transition-colors">call</span>
+</div>
+</div>
+<!-- Footer Links -->
+<div class="grid grid-cols-2 gap-12 md:gap-24">
+<div>
+<h5 class="text-[#ff9153] font-headline font-bold uppercase tracking-widest text-xs mb-6">
+                © 2024 Anand Mangal Sports. Engineered for Elite Performance.
+            </h5>
+<ul class="space-y-4">
+<li><a class="text-[#dee5ff]/60 hover:text-[#ff9153] transition-colors font-body text-sm" href="#">New Arrivals</a></li>
+<li><a class="text-[#dee5ff]/60 hover:text-[#ff9153] transition-colors font-body text-sm" href="#">Best Sellers</a></li>
+<li><a class="text-[#dee5ff]/60 hover:text-[#ff9153] transition-colors font-body text-sm" href="#">Training Gear</a></li>
+<li><a class="text-[#dee5ff]/60 hover:text-[#ff9153] transition-colors font-body text-sm" href="#">Pro Membership</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-[#ff9153] font-headline font-bold uppercase tracking-widest text-xs mb-6">
+                © 2024 Anand Mangal Sports. Engineered for Elite Performance.
+            </h5>
+<ul class="space-y-4">
+<li><a class="text-[#dee5ff]/60 hover:text-[#ff9153] transition-colors font-body text-sm" href="#">Privacy Policy</a></li>
+<li><a class="text-[#dee5ff]/60 hover:text-[#ff9153] transition-colors font-body text-sm" href="#">Terms of Service</a></li>
+<li><a class="text-[#dee5ff]/60 hover:text-[#ff9153] transition-colors font-body text-sm" href="#">Shipping &amp; Returns</a></li>
+<li><a class="text-[#dee5ff]/60 hover:text-[#ff9153] transition-colors font-body text-sm" href="#">Contact Us</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="px-8 py-6 border-t border-[#192540] flex flex-col md:flex-row justify-between items-center gap-4 text-center">
+<span class="text-[#dee5ff]/60 font-label text-xs uppercase tracking-widest">
+                © 2024 Anand Mangal Sports. Engineered for Elite Performance.
+            </span>
+<div class="flex gap-6">
+<span class="text-[#dee5ff]/40 text-[10px] font-black uppercase tracking-[0.2em]">Designed for Champions</span>
+</div>
+</div>
+</footer>
+</body></html>

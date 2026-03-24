@@ -1,0 +1,22 @@
+{
+  "name": "projects/5598751030959377164",
+  "projectId": "5598751030959377164",
+  "title": "Mangalam Sports Shop",
+  "visibility": "PRIVATE",
+  "projectType": "PROJECT_DESIGN",
+  "origin": "STITCH",
+  "designTheme": {
+    "colorMode": "DARK",
+    "font": "SPACE_GROTESK",
+    "roundness": "ROUND_FULL",
+    "customColor": "#f97316"
+  },
+  "screens": {
+    "index": {
+      "id": "a7c63d3ebcff4dfb89fca770c5a5082c",
+      "sourceScreen": "projects/5598751030959377164/screens/a7c63d3ebcff4dfb89fca770c5a5082c",
+      "width": 2560,
+      "height": 7178
+    }
+  }
+}
